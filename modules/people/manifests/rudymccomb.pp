@@ -54,15 +54,15 @@ class people::rudymccomb {
   }
 
   #### Printers #######
-  printer { "HP LaserJet 4250":
-  ensure      => present,
-  description => "HP LaserJet 4250",
-  enabled     => true,
-  accept      => true,
-  location    => "LA 22nd Floor",
-  ppd         => "/Library/Printers/PPDs/Contents/Resources/RICOH Aficio MP C300SR",
-  uri         => "lpd://10.100.0.50 ",
-}
+  #printer { "HP LaserJet 4250":
+  #ensure      => present,
+  #description => "HP LaserJet 4250",
+  #enabled     => true,
+  #accept      => true,
+  #location    => "LA 22nd Floor",
+  #ppd         => "/Library/Printers/PPDs/Contents/Resources/RICOH Aficio MP C300SR",
+  #uri         => "lpd://10.100.0.50 ",
+#}
 
   ##################################
   ## Facter, Puppet, and Envpuppet##
