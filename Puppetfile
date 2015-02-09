@@ -60,9 +60,10 @@ github "xquartz",     "1.2.1"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
-github "brewcask",    "0.0.5"
-github "docker",      "0.8.0"
-github "java",        "1.8.0"
-github "vagrant",     "3.2.1"
-github "osx",         "2.8.0",  :repo => "boxen/puppet-osx"
-github "atom",        "1.1.0",  :repo => "boxen/puppet-atom"
+github "brewcask",      "0.0.5"
+github "docker",        "0.8.0"
+github "java",          "1.8.0"
+github "vagrant",       "3.2.1"
+github "osx",           "2.8.0",  :repo => "boxen/puppet-osx"
+github "atom",          "1.1.0",  :repo => "boxen/puppet-atom"
+github "puppet-chrome", "1.2.0"

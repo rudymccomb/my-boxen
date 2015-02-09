@@ -23,6 +23,8 @@ class people::rudymccomb {
 
   include brewcask
   include docker
+  include chrome
+  include chrome::dev
   #include java
 
   class { 'vagrant':
