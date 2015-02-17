@@ -31,6 +31,10 @@ class people::rudymccomb {
     version => '1.7.1'
   }
 
+  class { 'packer':
+    version => 'packer_0.7.2'
+    }
+
   #package { 'puppet-lint':
   #  ensure   => '1.1.0',
   #  provider => 'gem',
