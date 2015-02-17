@@ -32,7 +32,7 @@ class people::rudymccomb {
   }
 
   class { 'packer':
-    version => 'packer_0.7.2'
+    version => 'packer_0.7.5'
     }
 
   #package { 'puppet-lint':
