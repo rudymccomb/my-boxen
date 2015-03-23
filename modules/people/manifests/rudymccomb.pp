@@ -32,8 +32,8 @@ class people::rudymccomb {
   }
 
   class { 'packer':
-    version => 'packer_0.7.5'
-    timeout => 1800,
+    version => 'packer_0.7.5',
+    timeout => 1800
     }
 
   #package { 'puppet-lint':
