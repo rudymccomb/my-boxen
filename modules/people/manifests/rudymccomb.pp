@@ -25,16 +25,14 @@ class people::rudymccomb {
   include docker
   include chrome
   include chrome::dev
+  include iterm2::stable
   #include java
 
   class { 'vagrant':
     version => '1.7.1'
   }
 
-  class { 'packer':
-    version => 'packer_0.7.5',
-    #timeout => 1800,
-    }
+
 
   #package { 'puppet-lint':
   #  ensure   => '1.1.0',
