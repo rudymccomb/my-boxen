@@ -25,7 +25,7 @@ class people::rudymccomb {
   include docker
   include chrome
   include chrome::dev
-  include iterm2::stable
+  #include virtualbox
   #include java
 
   class { 'vagrant':
