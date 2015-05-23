@@ -1,0 +1,4 @@
+2015-05-23 07:36:47 -0700 Puppet (notice): Compiled catalog for asgard.attlocal.net in environment production in 3.60 seconds
+2015-05-23 07:36:48 -0700 Puppet (notice): class people::rudymccomb declared
+2015-05-23 07:36:48 -0700 /Stage[main]/People::Rudymccomb/Notify[class people::rudymccomb declared]/message (notice): defined 'message' as 'class people::rudymccomb declared'
+2015-05-23 07:36:54 -0700 /Stage[main]/Boxen::Bin/File[/opt/boxen/bin/boxen]/ensure (notice): created
