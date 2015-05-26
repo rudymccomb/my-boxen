@@ -6,7 +6,7 @@ class people::rudymccomb {
   include people::rudymccomb::applications
   #include people::rudymccomb::dotfiles
   #include people::rudymccomb::gitconfig
-  #include people::rudymccomb::preferences
+  include people::rudymccomb::preferences
 
   # Changes the default shell to the zsh version we get from Homebrew
   # Uses the osx_chsh type out of boxen/puppet-osx
