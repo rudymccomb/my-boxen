@@ -71,3 +71,6 @@ github "docker",        "0.9.0"
 github "virtualbox",    "1.0.13"
 github "atom",          "1.1.0"
 github "osx",           "2.8.0",  :repo => "boxen/puppet-osx"
+github "atom",          "1.2.0"
+github "spotify",       "1.0.2"
+
