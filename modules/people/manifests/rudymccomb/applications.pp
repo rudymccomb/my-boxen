@@ -9,7 +9,8 @@ class people::rudymccomb::applications {
   include cyberduck
   include firefox
   include skype
-  #include docker
+  include vlc
+  include docker
 
   #package 'docker'{
   #  ensure => absent
