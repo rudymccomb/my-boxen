@@ -1,0 +1,21 @@
+2015-06-08 12:59:42 -0700 Puppet (notice): Compiled catalog for thegrid.mirantis.com in environment production in 3.14 seconds
+2015-06-08 12:59:43 -0700 Puppet (notice): class people::rudymccomb declared
+2015-06-08 12:59:43 -0700 /Stage[main]/People::Rudymccomb/Notify[class people::rudymccomb declared]/message (notice): defined 'message' as 'class people::rudymccomb declared'
+2015-06-08 12:59:48 -0700 /Stage[main]/Vagrant/Homebrew::Tap[homebrew/completions]/Homebrew_tap[homebrew/completions]/ensure (notice): created
+2015-06-08 12:59:48 -0700 Package[docker](provider=homebrew) (notice): Updating homebrew formulas
+2015-06-08 13:00:47 -0700 Puppet (err): Could not update: Execution of 'brew boxen-upgrade docker' returned 1: Error: docker 1.6.2 already installed
+Wrapped exception:
+Execution of 'brew boxen-upgrade docker' returned 1: Error: docker 1.6.2 already installed
+2015-06-08 13:00:47 -0700 /Stage[main]/Docker::Package/Package[docker]/ensure (err): change from 1.6.2 to 1.5.0 failed: Could not update: Execution of 'brew boxen-upgrade docker' returned 1: Error: docker 1.6.2 already installed
+2015-06-08 13:00:48 -0700 Puppet (err): Could not update: Execution of 'brew boxen-upgrade boot2docker' returned 1: Error: boot2docker 1.6.2 already installed
+Wrapped exception:
+Execution of 'brew boxen-upgrade boot2docker' returned 1: Error: boot2docker 1.6.2 already installed
+2015-06-08 13:00:48 -0700 /Stage[main]/Docker::Package/Package[boot2docker]/ensure (err): change from 1.6.2 to 1.5.0 failed: Could not update: Execution of 'brew boxen-upgrade boot2docker' returned 1: Error: boot2docker 1.6.2 already installed
+2015-06-08 13:00:48 -0700 /Stage[main]/Docker::Service/Exec[boot2docker-vm] (notice): Dependency Package[boot2docker] has failures: true
+2015-06-08 13:00:48 -0700 /Stage[main]/Docker::Service/Exec[boot2docker-vm] (notice): Dependency Package[docker] has failures: true
+2015-06-08 13:00:48 -0700 /Stage[main]/Docker::Service/Exec[boot2docker-vm] (warning): Skipping because of failed dependencies
+2015-06-08 13:00:48 -0700 /Stage[main]/Docker::Service/Service[dev.docker] (notice): Dependency Package[boot2docker] has failures: true
+2015-06-08 13:00:48 -0700 /Stage[main]/Docker::Service/Service[dev.docker] (notice): Dependency Package[docker] has failures: true
+2015-06-08 13:00:48 -0700 /Stage[main]/Docker::Service/Service[dev.docker] (warning): Skipping because of failed dependencies
+2015-06-08 13:01:40 -0700 /Stage[main]/Vagrant/Package[Vagrant_1.7.2]/ensure (notice): created
+2015-06-08 13:01:40 -0700 /Stage[main]/Vagrant/File[/Users/rmccomb/.vagrant.d]/ensure (notice): created

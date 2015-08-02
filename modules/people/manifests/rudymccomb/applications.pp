@@ -11,6 +11,7 @@ class people::rudymccomb::applications {
   include skype
   include vlc
   include docker
+  include vagrant
 
   #package 'docker'{
   #  ensure => absent
