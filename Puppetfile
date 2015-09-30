@@ -65,6 +65,7 @@ github "xquartz",     "1.2.1"
 # github "postgresql",  "3.0.3"
 # github "redis",       "3.1.0"
 # github "sysctl",      "1.0.1"
+<<<<<<< HEAD
 github "java",          "1.8.2"
 github "chrome",        "1.2.0"
 github "docker",        "0.9.0"
@@ -80,3 +81,5 @@ github "skype",         "1.1.0"
 github "iterm2",        "1.2.4"
 github "vlc",           "1.1.0"
 github "vagrant",       "3.3.0"
+=======
+>>>>>>> upstream/master
